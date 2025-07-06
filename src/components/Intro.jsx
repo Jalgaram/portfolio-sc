@@ -23,7 +23,7 @@ const Intro = () => {
         <div className="intro_titleBox">
           <div className="intro_title1">
             <p>2025</p>
-            <h2>GaRam</h2>
+            <h2>GARAM</h2>
             <h4>PORTFOLIO</h4>
           </div>
 
