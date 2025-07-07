@@ -1,17 +1,17 @@
 import React from 'react'
 import '../scss/about_me.scss'
 
-const About_me = () => {
+const About_me = ({goToSlide}) => {
   return (
     <div className='about_wrap wrap'>
 
       <div className="header">
         <div className="menu">
           <ul>
-            <li>INTRO</li>
-            <li>ABOUT ME</li>
-            <li>PROJECT</li>
-            <li>CONTACT</li>
+            <li onClick={() => goToSlide(0)}>INTRO</li>
+            <li onClick={() => goToSlide(1)}>ABOUT ME</li>
+            <li onClick={() => goToSlide(2)}>PROJECT</li>
+            <li onClick={() => goToSlide(3)}>CONTACT</li>
           </ul>
         </div>
       </div>
@@ -38,16 +38,16 @@ const About_me = () => {
                 <div className="about_font1Box2">
                   <p>2025.07 <br />
                     MBC아카데미 컴퓨터교육센터 <br />
-                    현장수요에 맞는 디지털디자인(웹디자인, 웹퍼블리셔) 전문가 양성 수료 </p>
+                    현장수요에 맞는 디지털디자인(웹디자인, 웹퍼블리셔) 전문가 양성 <span>(수료)</span></p>
 
                   <p>2024.02 <br />
-                  순천향대학교 법학과 졸업</p>
+                  순천향대학교 법학과 <span>(졸업)</span></p>
 
                   <p>2022.02 <br />
-                  순천향대학교 법학과 편입</p>
+                  순천향대학교 법학과 <span>(편입)</span></p>
 
                   <p>2020.03 ~ 2022.02 <br />
-                  용인예술과학대학교 법무경찰과 졸업</p>
+                  용인예술과학대학교 법무경찰과 <span>(졸업)</span></p>
                 </div>
               </div>
             </div>

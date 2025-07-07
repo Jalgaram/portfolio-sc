@@ -36,26 +36,29 @@
 
             .intro_title1 {
                 p {
-                    font-size: 50px;
+                    font-size: 40px;
                     color: #333;
+                    cursor: default;
                 }
 
                 h2 {
                     font: {
-                        size: 80px;
+                        size: 70px;
                         weight: 700;
                     }
 
                     color: #121212;
+                    cursor: default;
                 }
 
                 h4 {
                     font: {
-                        size: 60px;
+                        size: 50px;
                         weight: 500;
                     }
 
                     color: #333;
+                    cursor: default;
                 }
             }
 
@@ -67,22 +70,24 @@
 
                 p {
                     font: {
-                        size: 30px;
-                        weight: 500;
+                        size: 20px;
+                        weight: 400;
                     }
 
                     color: #121212;
+                    cursor: default;
                 }
             }
 
             .intro_title3 {
                 p {
                     font: {
-                        size: 30px;
-                        weight: 500;
+                        size: 20px;
+                        weight: 400;
                     }
 
                     color: #121212;
+                    cursor: default;
                 }
             }
         }

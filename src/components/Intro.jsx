@@ -1,7 +1,8 @@
 import React from 'react'
 import '../scss/intro.scss'
 
-const Intro = () => {
+const Intro = ({goToSlide}) => {
+  
   return (
     <div className='intro_wrap wrap'>
 
@@ -10,10 +11,10 @@ const Intro = () => {
 
         <div className="menu">
           <ul>
-            <li>INTRO</li>
-            <li>ABOUT ME</li>
-            <li>PROJECT</li>
-            <li>CONTACT</li>
+            <li onClick={() => goToSlide(0)}>INTRO</li>
+            <li onClick={() => goToSlide(1)}>ABOUT ME</li>
+            <li onClick={() => goToSlide(2)}>PROJECT</li>
+            <li onClick={() => goToSlide(3)}>CONTACT</li>
           </ul>
         </div>
       </div>

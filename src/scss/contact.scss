@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.contact_wrap{
+.contact_wrap {
     .header {
         display: flex;
         justify-content: right;
@@ -10,6 +10,92 @@
                 &:nth-of-type(4) {
                     font-weight: 700 !important;
                     color: #0051FF;
+                }
+            }
+        }
+    }
+
+    .box {
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .contact_box {
+            width: 838px;
+            height: 555px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .contact_fontbox1 {
+                width: 602px;
+                height: 130px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                p {
+                    font-size: 22px;
+                    cursor: default;
+
+                    span {
+                        font-size: 28px;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            hr {
+                width: 100%;
+            }
+
+            .contact_fontbox2 {
+                width: 100%;
+                height: 308px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                img[alt="반명함"] {
+                    width: 231px;
+                    height: 100%;
+                    border-radius: 15px;
+                }
+
+                .contact_font {
+                    height: 180px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .contact_font1 {
+                        height: 40px;
+                        display: flex;
+
+                        .contact_icon {
+                            margin-right: 10px;
+                            font-size: 25px;
+                        }
+
+                        p {
+                            font: {
+                                size: 22px;
+                                weight: 500;
+                            }
+
+                            a{
+                                text-decoration: none;
+                                color: #121212;
+                                &:hover{
+                                    color: #0051FF;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
