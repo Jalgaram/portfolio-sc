@@ -49,7 +49,7 @@ const Project3 = () => {
                     onClick={() => openSite('https://jalgaram.github.io/3_project/')}
                 >
                     <i className="fi fi-rs-computer computer"></i>
-                    <p>View site</p>
+                    <p>View Site</p>
                 </Button>
 
                 <Button

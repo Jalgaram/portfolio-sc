@@ -51,7 +51,7 @@ const Project1 = () => {
                     onClick={() => openSite('https://jalgaram.github.io/parket/')}
                 >
                     <i className="fi fi-rs-computer computer"></i>
-                    <p>View site</p>
+                    <p>View Site</p>
                 </Button>
 
                 <Button
