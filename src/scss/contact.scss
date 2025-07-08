@@ -41,6 +41,7 @@
                 p {
                     font-size: 22px;
                     cursor: default;
+                    margin: 0;
 
                     span {
                         font-size: 28px;
@@ -86,13 +87,14 @@
                                 size: 22px;
                                 weight: 500;
                             }
+                            margin: 0;
+                        }
 
-                            a{
-                                text-decoration: none;
-                                color: #121212;
-                                &:hover{
-                                    color: #0051FF;
-                                }
+                        .git {
+                            cursor: pointer;
+
+                            &:hover {
+                                color: #0051FF;
                             }
                         }
                     }

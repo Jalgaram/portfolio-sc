@@ -1,7 +1,10 @@
-import React from 'react'
 import "../scss/contact.scss"
 
-const Contact = ({goToSlide}) => {
+const Contact = ({ goToSlide }) => {
+  const openSite = (url) => {
+    window.open(url, '_blank');
+  }
+
   return (
     <div className='contact_wrap wrap'>
 
@@ -48,7 +51,8 @@ const Contact = ({goToSlide}) => {
 
               <div className="contact_font1">
                 <i className="fi fi-brands-github contact_icon"></i>
-                <p><a href="https://github.com/Jalgaram">github.com/Jalgaram</a></p>
+                <p className='git' 
+                onClick={() => openSite('https://github.com/Jalgaram')}>github.com/Jalgaram</p>
               </div>
 
             </div>

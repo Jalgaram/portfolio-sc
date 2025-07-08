@@ -1,8 +1,7 @@
-import React from 'react'
 import '../scss/intro.scss'
 
-const Intro = ({goToSlide}) => {
-  
+const Intro = ({ goToSlide }) => {
+
   return (
     <div className='intro_wrap wrap'>
 
@@ -35,11 +34,14 @@ const Intro = ({goToSlide}) => {
           <div className="intro_title3">
             <p>Learning, building, and constantly challenging myself <br />- I'm Garam Kim, a future frontend developer.</p>
           </div>
+        </div>
 
+        <div className="scrollBox">
+          <p>SCROLL DOWN</p>
+          <i className="fi fi-rs-angle-double-small-down scroll"></i>
         </div>
 
       </div>
-
     </div>
   )
 }

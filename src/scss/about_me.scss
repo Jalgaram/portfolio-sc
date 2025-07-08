@@ -18,13 +18,14 @@
     .box {
         display: flex;
         align-items: center;
+        justify-content: center;
 
         .about_box {
             width: 88.375%; //1414
             height: 700px;
-            margin: 0 auto;
             display: flex;
             justify-content: space-between;
+            align-items: center;
 
             .about_img {
                 width: 32.673%; //462
@@ -101,8 +102,9 @@
                             p {
                                 font-size: 20px;
                                 color: #121212;
+                                margin: 0;
 
-                                span{
+                                span {
                                     font: {
                                         size: 16px;
                                         weight: 500;
@@ -131,6 +133,7 @@
                         color: #121212;
                         display: flex;
                         align-items: center;
+                        margin: 0;
 
                         img[alt="자격증"] {
                             width: 3.491%; //28
@@ -170,6 +173,8 @@
                             width: 100%;
                             display: flex;
                             justify-content: space-between;
+                            margin: 0;
+                            padding: 0;
 
                             li {
                                 width: 8.977%; //72

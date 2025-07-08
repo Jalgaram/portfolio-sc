@@ -1,7 +1,8 @@
-import React from 'react'
+import { useEffect } from 'react';
 import '../scss/about_me.scss'
 
-const About_me = ({goToSlide}) => {
+const About_me = ({ goToSlide, isActive }) => {
+ 
   return (
     <div className='about_wrap wrap'>
 
@@ -41,13 +42,13 @@ const About_me = ({goToSlide}) => {
                     현장수요에 맞는 디지털디자인(웹디자인, 웹퍼블리셔) 전문가 양성 <span>(수료)</span></p>
 
                   <p>2024.02 <br />
-                  순천향대학교 법학과 <span>(졸업)</span></p>
+                    순천향대학교 법학과 <span>(졸업)</span></p>
 
                   <p>2022.02 <br />
-                  순천향대학교 법학과 <span>(편입)</span></p>
+                    순천향대학교 법학과 <span>(편입)</span></p>
 
                   <p>2020.03 ~ 2022.02 <br />
-                  용인예술과학대학교 법무경찰과 <span>(졸업)</span></p>
+                    용인예술과학대학교 법무경찰과 <span>(졸업)</span></p>
                 </div>
               </div>
             </div>
@@ -109,6 +110,7 @@ const About_me = ({goToSlide}) => {
           </div>
         </div>
       </div>
+
     </div>
   )
 }

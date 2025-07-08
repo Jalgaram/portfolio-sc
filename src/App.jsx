@@ -9,10 +9,11 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel, Scrollbar } from 'swiper/modules';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 function App() {
   const swiperRef = useRef();
+  const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <div className="App">
