@@ -1,7 +1,6 @@
-import { useEffect } from 'react';
 import '../scss/about_me.scss'
 
-const About_me = ({ goToSlide, isActive }) => {
+const ABOUT_ME = ({ goToSlide }) => {
  
   return (
     <div className='about_wrap wrap'>
@@ -30,7 +29,7 @@ const About_me = ({ goToSlide, isActive }) => {
           </div>
 
           <div className="about_fontBox">
-            <div className="about_font1">
+            <div className="about_font1 about_font">
               <h4>Education</h4>
 
               <div className="about_font1Box">
@@ -53,14 +52,14 @@ const About_me = ({ goToSlide, isActive }) => {
               </div>
             </div>
 
-            <div className="about_font2">
+            <div className="about_font2 about_font">
               <h4>Certificate</h4>
               <p><img src={process.env.PUBLIC_URL + "/img/card.png"} alt="자격증" /> 2024.06 한국사능력검정시험 1급 취득</p>
 
               <p><img src={process.env.PUBLIC_URL + "/img/card.png"} alt="자격증" /> 2020.07 1종보통운전면허 취득</p>
             </div>
 
-            <div className="about_font3">
+            <div className="about_font3 about_font">
               <h4>Skills</h4>
 
               <div className="skillBox">
@@ -115,4 +114,4 @@ const About_me = ({ goToSlide, isActive }) => {
   )
 }
 
-export default About_me
+export default ABOUT_ME

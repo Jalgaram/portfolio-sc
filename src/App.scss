@@ -24,13 +24,41 @@
         .swiper-slide {
             height: 100vh;
         }
+
+        .app_slide {
+            .about_font {
+                opacity: 0;
+                transform: translateY(40px);
+                transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+            }
+
+            &.active {
+                .about_font1 {
+                    opacity: 1;
+                    transform: translateY(0);
+                    transition: opacity 0.8s ease-out 0s, transform 0.8s ease-out 0s;
+                }
+
+                .about_font2 {
+                    opacity: 1;
+                    transform: translateY(0);
+                    transition: opacity 0.8s ease-out 0.2s, transform 0.8s ease-out 0.2s;
+                }
+
+                .about_font3 {
+                    opacity: 1;
+                    transform: translateY(0);
+                    transition: opacity 0.8s ease-out 0.4s, transform 0.8s ease-out 0.4s;
+                }
+            }
+        }
     }
 
     .wrap {
         max-width: 1600px; //1600px
         padding: 10px 0;
         margin: 0 auto;
-        
+
 
         .header {
             width: 1600px;
@@ -44,7 +72,7 @@
                 background-color: #EEF2FB;
                 border-radius: 30px 30px 0 0;
                 box-shadow: 5px -3px 4px 0px rgba(#000, 25%);
-                
+
 
                 ul {
                     width: 100%;

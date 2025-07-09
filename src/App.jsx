@@ -4,37 +4,54 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import Intro from './components/Intro';
-import About_me from './components/About_me';
+import ABOUT_ME from './components/ABOUT_ME';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel, Scrollbar } from 'swiper/modules';
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 
 function App() {
   const swiperRef = useRef();
-  const [activeIndex, setActiveIndex] = useState(0);
+
+  const updateActiveClass = (activeIndex) => {
+    document.querySelectorAll('.app_slide').forEach((slide, index) => {
+      if (index === activeIndex) {
+        slide.classList.add('active');
+      } else {
+        slide.classList.remove('active');
+      }
+    });
+  };
 
   return (
     <div className="App">
 
       <Swiper
         direction={'vertical'}
+        ref={swiperRef}
         mousewheel={true}
         pagination={{
           clickable: true,
         }}
         modules={[Scrollbar, Mousewheel]}
-        onSwiper={(swiper) => (swiperRef.current = swiper)}
+        onSwiper={(swiper) => {
+          swiperRef.current = swiper;
+          updateActiveClass(swiper.activeIndex);
+          
+          swiper.on('slideChangeTransitionEnd', () => {
+            updateActiveClass(swiper.activeIndex);
+          });
+        }}
         className="mySwiper"
       >
-        <SwiperSlide><Intro goToSlide={(i) => swiperRef.current?.slideTo(i)} /></SwiperSlide>
+        <SwiperSlide className='app_slide'><Intro goToSlide={(i) => swiperRef.current?.slideTo(i)} /></SwiperSlide>
 
-        <SwiperSlide><About_me goToSlide={(i) => swiperRef.current?.slideTo(i)}/></SwiperSlide>
+        <SwiperSlide className='app_slide'><ABOUT_ME goToSlide={(i) => swiperRef.current?.slideTo(i)}/></SwiperSlide>
 
-        <SwiperSlide><Project goToSlide={(i) => swiperRef.current?.slideTo(i)}/></SwiperSlide>
+        <SwiperSlide className='app_slide'><Project goToSlide={(i) => swiperRef.current?.slideTo(i)}/></SwiperSlide>
 
-        <SwiperSlide><Contact goToSlide={(i) => swiperRef.current?.slideTo(i)}/></SwiperSlide>
+        <SwiperSlide className='app_slide'><Contact goToSlide={(i) => swiperRef.current?.slideTo(i)}/></SwiperSlide>
 
       </Swiper>
 
