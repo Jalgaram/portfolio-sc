@@ -28,7 +28,7 @@ const Intro = ({ goToSlide }) => {
           </div>
 
           <div className="intro_title2">
-            <p>끝임없이 배우고, 만들며 도전하는 <br />웹퍼블리셔와 프론트엔드 개발자를 꿈꾸는 김가람입니다.</p>
+            <p>배우고, 만들며 끊임없이 도전하는 <br />웹퍼블리셔와 프론트엔드 개발자를 꿈꾸는 김가람입니다.</p>
           </div>
 
           <div className="intro_title3">
