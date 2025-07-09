@@ -28,11 +28,11 @@ const Intro = ({ goToSlide }) => {
           </div>
 
           <div className="intro_title2">
-            <p>배우고, 만들며 끝없이 도전 중인 <br />미래의 프론트엔드 개발자 김가람입니다.</p>
+            <p>끝임없이 배우고, 만들며 도전하는 <br />웹퍼블리셔와 프론트엔드 개발자를 꿈꾸는 김가람입니다.</p>
           </div>
 
           <div className="intro_title3">
-            <p>Learning, building, and constantly challenging myself <br />- I'm Garam Kim, a future frontend developer.</p>
+            <p>Continuously learning, building, and taking on new challenges. <br />I'm Garam Kim, aspiring to become a web publisher and frontend developer.</p>
           </div>
         </div>
 
