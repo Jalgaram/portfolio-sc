@@ -114,9 +114,10 @@
         }
 
         .scrollBox {
+            width: 100%;
             position: absolute;
             bottom: 4%;
-            left: 46.4%;
+            left: 0;
             text-align: center;
             animation: scrollMove 1.5s ease-in-out infinite, 
             scrollBlink 1.5s ease-in-out infinite;
