@@ -34,7 +34,7 @@ const Project3 = () => {
 
             <div className="project_fontBox">
                 <h4>Open API를 활용한 도서 웹사이트 - INDIEPUB</h4>
-                <h5>개인 프로젝트</h5>
+                <h5>개인 프로젝트 <span>2025.05.01 ~ 2025.05.28</span></h5>
                 <p>
                     INDIEPUB 사이트의 레이아웃을 바탕으로 <span>카카오 Open API</span>를 통해 도서 정보를 가져와 구현하였으며, 
                     <br />

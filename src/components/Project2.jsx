@@ -34,7 +34,7 @@ const Project2 = () => {
 
             <div className="project_fontBox">
                 <h4>React 프로젝트 - Apple Store</h4>
-                <h5>개인 프로젝트</h5>
+                <h5>개인 프로젝트 <span>2025.06.02 ~ 2025.06.16</span></h5>
                 <p>
                     React를 사용하여 제작한 Apple Store 사이트입니다.
                     <br />

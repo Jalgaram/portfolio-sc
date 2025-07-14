@@ -30,7 +30,7 @@ const Project4 = () => {
 
             <div className="project_fontBox">
                 <h4>반응형 프로젝트 - RIIZE & BRIIZE</h4>
-                <h5>개인 프로젝트</h5>
+                <h5>개인 프로젝트 <span>2025.04.01 ~ 2025.04.24</span></h5>
                 <p>
                     RIIZE와 팬덤 BRIIZE를 위한 사이트입니다.
                     반응형 웹으로 제작되어 다양한 기기에서 사용 가능하며,
