@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    max-width: 1920px;
     margin: 0;
     padding-left: 0;
     box-sizing: border-box;
@@ -16,6 +15,7 @@
 }
 
 .App {
+    max-width: 1920px;
     margin: 0 auto;
 
     .mySwiper {
