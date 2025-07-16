@@ -20,7 +20,7 @@ const Project3 = () => {
                 </div>
 
                 <div className="project_skill">
-                    <p>#JS · Jquery</p>
+                    <p>#JS · jQuery</p>
                 </div>
 
                 <div className="project_skill">
