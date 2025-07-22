@@ -28,11 +28,13 @@ const Intro = ({ goToSlide }) => {
           </div>
 
           <div className="intro_title2">
-            <p>배우고, 만들며 끊임없이 도전중인 <br />웹퍼블리셔와 프론트엔드 개발자를 꿈꾸는 김가람입니다.</p>
+            <p>배우고, 만들며 끊임없이 도전중인 <br />UI 기반 웹디자이너 겸 퍼블리셔를 꿈꾸는 김가람입니다.</p>
           </div>
 
           <div className="intro_title3">
-            <p>Continuously learning, building, and taking on new challenges. <br />I'm Garam Kim, aspiring to become a web publisher and frontend developer.</p>
+            <p>I am Kim Garam,<br />
+              a UI-based web designer and publisher who constantly learns, creates, and takes on new challenges.
+            </p>
           </div>
         </div>
 

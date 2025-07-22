@@ -16,7 +16,7 @@ const Project5 = () => {
                 </div>
 
                 <div className="project_skill">
-                    <p>#jQuery</p>
+                    <p>#Jquery</p>
                 </div>
 
                 <div className="project_skill">

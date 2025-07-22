@@ -81,7 +81,7 @@ const ABOUT_ME = ({ goToSlide }) => {
 
                   <li>
                     <img src={process.env.PUBLIC_URL + "/img/jq.jpg"} alt="jq" />
-                    jQuery
+                    Jquery
                   </li>
 
                   <li>
@@ -100,7 +100,7 @@ const ABOUT_ME = ({ goToSlide }) => {
                   </li>
 
                   <li>
-                    <img src={process.env.PUBLIC_URL + "/img/figma.jpg"} alt="" />
+                    <img src={process.env.PUBLIC_URL + "/img/figma.jpg"} alt="Figma" />
                     Figma
                   </li>
                 </ul>

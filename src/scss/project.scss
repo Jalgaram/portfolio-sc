@@ -90,9 +90,12 @@
                             font-size: 17px;
                             color: #666;
                             margin: 0;
+                            display: flex;
+                            align-items: center;
 
                             span {
                                 font-size: 15px;
+                                margin-left: 5px;
                             }
                         }
 
