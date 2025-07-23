@@ -81,7 +81,7 @@ const ABOUT_ME = ({ goToSlide }) => {
 
                   <li>
                     <img src={process.env.PUBLIC_URL + "/img/jq.jpg"} alt="jq" />
-                    Jquery
+                    jQuery
                   </li>
 
                   <li>
